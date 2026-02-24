@@ -11,7 +11,8 @@ source:
   # tag: ${{ version }}
   # Use exact commit as no tags for v0.5.1 or later (yet)
   rev: "1b3006f03098ef4c6d44200ef643fede9c426cfe"
-  patches: add-pyproject-toml-for-build-system.patch
+  patches:
+    - add-pyproject-toml-for-build-system.patch
 
 build:
   number: 0

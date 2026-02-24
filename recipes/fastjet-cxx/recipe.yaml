@@ -11,7 +11,8 @@ recipe:
 source:
   url: https://gitlab.com/fastjet/fastjet/-/archive/fastjet-${{ version }}/fastjet-fastjet-${{ version }}.tar.gz
   sha256: 67c314aec7899f098c9ec8fb2ca0c46a3b7700cbb756278ab4a6a02f34ba1dc9
-  patches: enable-python-binding-only-build.patch
+  patches:
+    - enable-python-binding-only-build.patch
 
 build:
   number: 3
